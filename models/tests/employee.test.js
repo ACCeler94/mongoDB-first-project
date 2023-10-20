@@ -2,7 +2,7 @@ const expect = require('chai').expect;
 const mongoose = require('mongoose');
 const Employee = require('../employee.model');
 
-describe('Department', () => {
+describe('Employee', () => {
   it('should throw an error if any argument is missing', async () => {
     const cases = [
       { firstName: 'John', lastName: 'Doe' },
